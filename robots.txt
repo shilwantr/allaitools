@@ -1,0 +1,70 @@
+# Robots.txt for https://www.allaitools.online
+# Allow all web search engines, AI crawlers, and user agents
+
+User-agent: *
+Allow: /
+
+# Google Search, Googlebot, Gemini & Extended Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+# Microsoft Bing & Copilot
+User-agent: Bingbot
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+# OpenAI Crawlers (ChatGPT, SearchGPT, GPTBot)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic Claude Crawlers
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity AI Search Crawler
+User-agent: PerplexityBot
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Common Crawl & Open Datasets
+User-agent: CCBot
+Allow: /
+
+# Sitemap Declarations (HTTPS canonical endpoints without redirects)
+Sitemap: https://www.allaitools.online/sitemap.xml
+Sitemap: https://allaitools.online/sitemap.xml
